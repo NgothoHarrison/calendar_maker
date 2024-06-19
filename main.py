@@ -8,3 +8,9 @@ MONTHS = ('January', 'February', 'March', 'April', 'May', 'June',
 
 print("Calender by Hank")
 
+while True:
+    response = input(print("Enter the year for the calendar: "))
+
+    if response.isdecimal() and int(response) > 0:
+        year = int(response)
+        break
